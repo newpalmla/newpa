@@ -198,7 +198,7 @@ main {
     border: none !important;
     border-radius: 2rem;
     box-shadow: 0 0 10px 8px #f8ff2a44;
-    color:rgb(0, 0, 0);
+
     text-align: center;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -242,7 +242,7 @@ main {
 .collapsible.mobile {
     color: black;
     width: 80%;
-    mix-blend-mode: color-burn;
+    mix-blend-mode: hard-light;
 }
   
 .active.desktop {
