@@ -39,6 +39,9 @@
 body, html {
     height:auto;
     min-height:100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 html {

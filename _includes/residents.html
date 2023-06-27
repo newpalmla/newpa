@@ -13,6 +13,11 @@
           </ul>
         </div>
       </div>
+      <div class="list-content vertical">
+        <div class="list-info" style="margin-top: 20px;">
+          {{ resident.bio }}
+        </div>
+      </div>
     {% else %}
       <div class="list-item collapsible-item">
         <div class="list-text left">{{ resident.name }}</div>
@@ -22,6 +27,11 @@
             <li class="d-inline"><a href="{{ resident.instagram }}" class="icon-link-small"><i class="fa fa-instagram"></i></a></li>
             <li class="d-inline"><a href="{{ resident.soundcloud }}" class="icon-link-small"><i class="fa fa-soundcloud"></i></a></li>
           </ul>
+        </div>
+      </div>
+      <div class="list-content vertical">
+        <div class="list-info" style="margin: 20px;">
+          {{ resident.bio }}
         </div>
       </div>
     {% endif %}
