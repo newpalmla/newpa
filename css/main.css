@@ -104,11 +104,10 @@ nav.mobile {
         text-decoration: none;
     }
 
-    &::after {
-        color:#1b022953;
-        text-decoration: none;
-    }
-
+}
+.navbar-link:active {
+    color:#1b022953;
+    text-decoration: none;
 }
 
 .icon-link {
