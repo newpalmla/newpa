@@ -38,9 +38,9 @@
     z-index: -1000; 
 }
 
-
 #all_overlay{
     background: rgba(255, 255, 255, 0.4);
+    z-index: -999; 
 }
 
 
@@ -189,6 +189,7 @@ main {
 
 .content-main.mobile{
     padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 /*--- sections ---*/
@@ -220,6 +221,7 @@ main {
   }
 
 .collapsible.desktop {
+    color: black;
     width: 60%;
     mix-blend-mode: color-burn;
 
@@ -254,6 +256,7 @@ main {
 .active.mobile {
     background: rgba(220, 220, 220, 0.848);
     backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
     transition: all 0.5s;
     padding: 1.5rem 3rem 1.5rem 2rem;
     box-shadow: 0 0 10px 8px #ff656544;
