@@ -197,7 +197,7 @@ main {
     border: none !important;
     border-radius: 2rem;
     box-shadow: 0 0 10px 8px #f8ff2a44;
-
+    cursor:pointer;
     text-align: center;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -300,7 +300,7 @@ main {
         background: url(../images/about/logo-transparent-white.png) left no-repeat, #ffffff4c;
         transition: all 0.5s;
         color: #ffffff;
-
+        cursor:pointer;
         &::after {
             transition: all 0.5s;
         }
