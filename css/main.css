@@ -182,12 +182,13 @@ main {
 }
 
 .content-main.desktop{
-    padding-top: 2rem;
+    padding-top: 0rem;
+    padding-bottom: 40rem;
 }
 
 .content-main.mobile{
     padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 30rem;
 }
 
 /*--- sections ---*/
@@ -224,7 +225,9 @@ main {
     mix-blend-mode: hard-light;
 
     &:hover {
-        background: rgba(220, 220, 220, 0.848);
+        background: url(../images/about/logo-transparent-large.png) left no-repeat,  rgba(220, 220, 220, 0.848);
+        background-size: 200px;
+        background-position: -5px;
         backdrop-filter: blur(4px);
         transition: all 0.5s;
         padding: 1.5rem 3rem 1.5rem 2rem;
@@ -241,18 +244,22 @@ main {
 .collapsible.mobile {
     color: black;
     width: 80%;
-    mix-blend-mode: hard-light;
+    mix-blend-mode: normal;
 }
   
 .active.desktop {
-    background: rgb(0, 0, 0);
+    background: url(../images/about/logo-transparent-white-large.png) left no-repeat, rgb(0, 0, 0);
+    background-size: 200px;
+    background-position: -5px;
     color: rgb(255, 255, 255);
     mix-blend-mode:normal;
     box-shadow: 0 0 10px 8px #ff656544;
 }
 
 .active.mobile {
-    background: rgba(220, 220, 220, 0.848);
+    background: url(../images/about/logo-transparent-large.png) left no-repeat,  rgba(220, 220, 220, 0.848);
+    background-size: 100px;
+    background-position: -5px;
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     transition: all 0.5s;
@@ -297,7 +304,9 @@ main {
     }
 
     &:hover {
-        background: url(../images/about/logo-transparent-white.png) left no-repeat, #ffffff4c;
+        background: url(../images/about/logo-transparent-white-large.png) left no-repeat, #ffffff4c;
+        background-size: 70px;
+        background-position: -5px;
         transition: all 0.5s;
         color: #ffffff;
         cursor:pointer;
@@ -307,7 +316,9 @@ main {
     }
 }
 .active-item {
-    background: url(../images/about/logo-transparent-white.png) left no-repeat;
+    background: url(../images/about/logo-transparent-white-large.png) left no-repeat, #ffffff4c;
+    background-size: 70px;
+    background-position: -5px;
     border-bottom: 1px solid #ffffff;
 }
 
