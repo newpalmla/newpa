@@ -68,7 +68,7 @@ body {
 /*--- header ---*/
 
 nav {
-    background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.419), rgba(255, 74, 8, 0));
+    background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.852), rgba(255, 74, 8, 0));
     height: 10rem;
     margin: 0;
     padding: 0 !important;
@@ -197,6 +197,7 @@ main {
     border: none !important;
     border-radius: 3rem;
     background: rgba(220, 220, 220, 0.848);
+    box-shadow: 0 0 10px 8px #0a0a0abf;
     backdrop-filter: blur(4px);
     color: #000000af;
     mix-blend-mode:difference;
@@ -294,7 +295,7 @@ main {
     }
 
     &:hover {
-        background: url(../images/about/logo-transparent-white.png) left no-repeat, #ffffff1e;
+        background: url(../images/about/logo-transparent-white.png) left no-repeat, #ffffff27;
         transition: all 0.5s;
         color: #ffffff;
         cursor:pointer;
