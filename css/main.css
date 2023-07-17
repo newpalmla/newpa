@@ -221,7 +221,7 @@ main {
 .collapsible.desktop {
     color: black;
     width: 60%;
-    mix-blend-mode: color-burn;
+    mix-blend-mode: hard-light;
 
     &:hover {
         background: rgba(220, 220, 220, 0.848);
