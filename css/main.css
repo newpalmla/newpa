@@ -313,6 +313,7 @@ main {
 
 .list-text {
     width: 100%;
+    margin-left: 30px;
 }
 
 .list-text.left {
@@ -320,10 +321,8 @@ main {
 }
 
 .list-text.right {
-    margin-left: 80px;
-}
-.list-text.right.mobile {
     margin-left: 30px;
+    text-align: right;
 }
 
 .list-content {
@@ -331,6 +330,7 @@ main {
     color:#ffffff;
     max-height: 0;
     overflow: hidden;
+    transition: max-height 0.2s ease-out;
 }
 
 .list-content.vertical {
