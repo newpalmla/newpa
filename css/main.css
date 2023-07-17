@@ -100,7 +100,7 @@ nav.mobile {
     line-height: 100%;
 
     &:hover {
-        color:#1b022953;
+        color:#f8ff2a44;
         text-decoration: none;
     }
 
@@ -118,7 +118,7 @@ nav.mobile {
     vertical-align: bottom;
 
     &:hover {
-        color: #1b022953;
+        color: #f8ff2a44;
         text-decoration: none;
     }
 }
@@ -198,7 +198,8 @@ main {
     border-radius: 3rem;
     background: rgba(220, 220, 220, 0.848);
     box-shadow: 0 0 10px 8px #0a0a0abf;
-    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
     color: #000000af;
     mix-blend-mode:difference;
     cursor:pointer;
@@ -271,7 +272,6 @@ main {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-    background-color: rgb(0, 0, 0);
     font-size: 14px;
     letter-spacing: 0.05rem;
     text-align: left;
@@ -289,13 +289,15 @@ main {
     border-bottom: 1px solid #ffffff;
     padding: 10px 20px;
     color:#ffffff;
+    background-color: #000000af;
+    backdrop-filter: blur(4px);
 
     &::after {
         transition: all 0.5s;
     }
 
     &:hover {
-        background: url(../images/about/logo-transparent-white.png) left no-repeat, #ffffff27;
+        background: url(../images/about/logo-transparent-white.png) left no-repeat, #000000;
         transition: all 0.5s;
         color: #ffffff;
         cursor:pointer;
@@ -305,12 +307,13 @@ main {
     }
 }
 .active-item {
-    background: url(../images/about/logo-transparent-white.png) left no-repeat;
+    background: url(../images/about/logo-transparent-white.png) left no-repeat, #000000;
     border-bottom: 1px solid #ffffff;
 }
 
 .list-text {
     width: 100%;
+    margin-left: 30px;
 }
 
 .list-text.left {
@@ -318,17 +321,17 @@ main {
 }
 
 .list-text.right {
-    margin-left: 80px;
-}
-.list-text.right.mobile {
     margin-left: 30px;
+    text-align: right;
 }
 
 .list-content {
     display: flex;
     color:#ffffff;
+    background-color: #000000;
     max-height: 0;
     overflow: hidden;
+    transition: max-height 0.2s ease-out;
 }
 
 .list-content.vertical {
