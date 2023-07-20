@@ -68,7 +68,7 @@ body {
 /*--- header ---*/
 
 nav {
-    background-image: linear-gradient(rgb(255, 255, 255),rgba(255, 255, 255, 0.419)), rgba(255, 74, 8, 0);
+    background: linear-gradient(rgb(255, 255, 255),rgba(255, 255, 255, 0.419), rgba(255, 74, 8, 0));
     height: 10rem;
     margin: 0;
     padding: 0 !important;
