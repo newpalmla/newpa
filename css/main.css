@@ -68,7 +68,7 @@ body {
 /*--- header ---*/
 
 nav {
-    background-image: linear-gradient(rgb(255, 238, 83), rgba(255, 242, 122, 0.419), rgba(255, 74, 8, 0));
+    background-image: linear-gradient(rgb(255, 255, 255),rgba(255, 255, 255, 0.419)), rgba(255, 74, 8, 0);
     height: 10rem;
     margin: 0;
     padding: 0 !important;
@@ -183,7 +183,7 @@ main {
 
 .content-main.desktop{
     padding-top: 0rem;
-    padding-bottom: 40rem;
+    padding-bottom: 46rem;
 }
 
 .content-main.mobile{
@@ -197,7 +197,7 @@ main {
     background: #f8ff2a44;
     border: none !important;
     border-radius: 2rem;
-    box-shadow: 0 0 10px 8px #f8ff2a44;
+    box-shadow: 0 0 14px 10px #f8ff2a44;
     cursor:pointer;
     text-align: center;
     justify-content: center;
@@ -221,7 +221,7 @@ main {
 
 .collapsible.desktop {
     color: black;
-    width: 60%;
+    width: 50%;
     mix-blend-mode: hard-light;
 
     &:hover {

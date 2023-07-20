@@ -33,6 +33,9 @@
         <div class="list-text right">{{ event.year }}</div>
       </div>
       <div class="list-content vertical">
+        {% if event.link %}
+        <div class="list-info" style="margin-left:20px; margin-top: 20px;">Event link: <a href="{{ event.link }}" class="icon-link-small"><i class="fa fa-link"></i></a></div>
+        {% endif %}
         <div class="list-info" style="margin: 20px;">
           {{ event.description }}
         </div>
