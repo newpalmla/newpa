@@ -149,7 +149,7 @@ footer.mobile {
 }
 
 .footer-link {
-    color: rgba(255, 47, 19, 0.693);
+    color: #6a00ffc8;
     &:hover {
         text-decoration:line-through;
         color: rgba(98, 19, 255, 0.693);
