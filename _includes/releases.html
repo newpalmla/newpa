@@ -26,10 +26,6 @@
             bandcamp: <a href="{{ release.bandcamp }}" class="icon-link-small"><i class="fa fa-bandcamp"></i></a>
             <br>
           {% endif %}
-
-          distribution: {{ release.distribution }}
-          <br>
-          Pressing: {{ release.day }}
         </div>
         <div style="margin-left: 20px;">
           <img class="list-image" src="{{ release.image }}">
@@ -39,6 +35,8 @@
               {{ track }}
               <br>
           {% endfor %}
+          <br>
+          Distribution: {{ release.distribution }}
           <br>
           Mastering: {{ release.mastering }}
           <br>
