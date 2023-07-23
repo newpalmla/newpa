@@ -344,6 +344,11 @@ main {
     transition: max-height 0.2s ease-out;
 }
 
+.list-content-row {
+    display:flex;
+    flex-direction: row !important;
+}
+
 .list-content.vertical {
     flex-direction: column;
 }
