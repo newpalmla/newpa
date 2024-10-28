@@ -48,6 +48,13 @@
                         </p>
                     </div>
 
+                    <!-- EVENTS ------------------------------------------------------------------->
+                    <button class="collapsible mobile">EVENTS</button>
+                    <div class="section_content" id="events_mobile">
+                        {% include events.html 
+                            mobile=true %}
+                    </div>
+
                     <!-- RELEASES ----------------------------------------------------------------->
                     <button class="collapsible mobile">RELEASES</button>
                     <div class="section_content" id="releases_mobile">
@@ -59,13 +66,6 @@
                     <button class="collapsible mobile">MIXES</button>
                     <div class="section_content" id="mixes_mobile">
                         {% include mixes.html 
-                            mobile=true %}
-                    </div>
-
-                    <!-- EVENTS ------------------------------------------------------------------->
-                    <button class="collapsible mobile">EVENTS</button>
-                    <div class="section_content" id="events_mobile">
-                        {% include events.html 
                             mobile=true %}
                     </div>
 
@@ -119,6 +119,13 @@
             <main>
                 <div class="content-main desktop">
 
+                     <!-- EVENTS ------------------------------------------------------------------->
+                     <button class="collapsible desktop">EVENTS</button>
+                     <div class="section_content" id="events">
+                         {% include events.html
+                             mobile=false %}
+                     </div>
+
                     <!-- RELEASES ----------------------------------------------------------------->
                     <button class="collapsible desktop">RELEASES</button>
                     <div class="section_content" id="releases">
@@ -130,13 +137,6 @@
                     <button class="collapsible desktop">MIXES</button>
                     <div class="section_content" id="mixes">
                         {% include mixes.html 
-                            mobile=false %}
-                    </div>
-
-                    <!-- EVENTS ------------------------------------------------------------------->
-                    <button class="collapsible desktop">EVENTS</button>
-                    <div class="section_content" id="events">
-                        {% include events.html
                             mobile=false %}
                     </div>
 
