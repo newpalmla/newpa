@@ -1,5 +1,24 @@
 # New Palm Website
 
+## Events
+
+To add a new event, copy and paste a new `[event name].html` file in the `_events` folder.
+Then update all of the information in the `` fields following this template:
+
+```
+---
+name: `Gradient camp out`
+year: `2023`
+location: `Los Angeles, USA`
+
+image: `/images/events/gradient2023.jpg`
+
+description: `A summary of this event`
+---
+```
+
+For the event image, make sure to add an image in the `/images/events/` folder and check that the name of this image file and the file type matches the `image:` field above.
+
 ## Releases
 
 To add a new release, copy and paste a new `[catalogue_number].html` file in the `_releases` folder.
@@ -47,25 +66,6 @@ year: `2022`
 ```
 
 For the soundcloud embed (the `iframe` field), navigate to the mix's soundcloud page and click `share > embed`. Select the `Classic embed` style, and copy the code that is generated in the `Code` field. Paste it below the template section, and delete everything after the `</iframe>` tag.
-
-## Events
-
-To add a new event, copy and paste a new `[event name].html` file in the `_events` folder.
-Then update all of the information in the `` fields following this template:
-
-```
----
-name: `Gradient camp out`
-year: `2023`
-location: `Los Angeles, USA`
-
-image: `/images/events/gradient2023.jpg`
-
-description: `A summary of this event`
----
-```
-
-For the event image, make sure to add an image in the `/images/events/` folder and check that the name of this image file and the file type matches the `image:` field above.
 
 ## Residents
 
